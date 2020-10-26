@@ -58,6 +58,7 @@ class Widget : public QWidget {
   void on_LoadJsonButton_clicked();
 
   void on_guitButton_clicked();
+  void on_aboutButton_clicked();
 
  private:
   Ui::Widget *ui;

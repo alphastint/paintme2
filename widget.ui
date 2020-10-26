@@ -52,6 +52,13 @@
         </spacer>
        </item>
        <item>
+        <widget class="QPushButton" name="aboutButton">
+         <property name="text">
+          <string>About</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QPushButton" name="saveImageButton">
          <property name="text">
           <string>Save Image</string>
