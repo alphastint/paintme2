@@ -24,7 +24,7 @@ class Widget : public QWidget {
   int CoordY = -1;
   bool DrawText = false;
   std::vector<QPoint> Path;
-  int counter = 10000000;
+  int counter = 10000100;
 
  public:
   template <class Archiver>
