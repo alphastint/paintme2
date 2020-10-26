@@ -2,6 +2,7 @@
 #include <QDebug>
 #include <QEvent>
 #include <QFileDialog>
+#include <QMessageBox>
 #include <QMouseEvent>
 #include <QPainter>
 #include <QString>
@@ -99,4 +100,10 @@ void Widget::on_LoadJsonButton_clicked() {
   }
 
   Render(this);
+}
+
+void Widget::on_aboutButton_clicked() {
+  QMessageBox msgBox;
+  msgBox.setText("Created by SJE.");
+  msgBox.exec();
 }
