@@ -100,3 +100,5 @@ void Widget::on_LoadJsonButton_clicked() {
 
   Render(this);
 }
+
+void Widget::on_guitButton_clicked() { QApplication::exit(); }
