@@ -50,17 +50,12 @@ bool Widget::eventFilter(QObject *obj, QEvent *event) {
 }
 
 void Widget::mousePressEvent(QMouseEvent *event) {
-  //  qDebug() << "Widget::mousePressEvent";
   Path.push_back(event->pos());
 }
 
 void Widget::mouseReleaseEvent(QMouseEvent *event) { update(); }
 
-void Widget::paintEvent(QPaintEvent *event) {
-  //  qDebug() << counter << "Widget::paintEvent(QPaintEvent *" << event << ")";
-  //  counter += 1;
-  Render(this);
-}
+void Widget::paintEvent(QPaintEvent *event) { Render(this); }
 
 void Widget::on_pushButton_clicked() {
   DrawText = true;
