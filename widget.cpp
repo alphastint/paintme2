@@ -44,9 +44,6 @@ bool Widget::eventFilter(QObject *obj, QEvent *event) {
     QMouseEvent *mouseEvent = static_cast<QMouseEvent *>(event);
     CoordX = mouseEvent->pos().x();
     CoordY = mouseEvent->pos().y();
-    //    qDebug() << QString("Mouse move (%1,%2)")
-    //                    .arg(mouseEvent->pos().x())
-    //                    .arg(mouseEvent->pos().y());
   }
   update();
   return false;
