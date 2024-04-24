@@ -1,3 +1,4 @@
+/*
     PaintMe Program
     Copyright (C) 2024 Marak, Laszlo
 
@@ -13,6 +14,7 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
 
 #include "widget.h"
 
